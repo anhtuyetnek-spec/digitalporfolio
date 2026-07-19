@@ -575,17 +575,30 @@
 
     <!-- Modal Bài 1 -->
     <div id="modal-1" class="modal fixed inset-0 z-50 flex items-center justify-center p-4 bg-purple-950/20 backdrop-blur-md">
-        <div class="modal-content bg-white/95 border border-white rounded-[2.5rem] shadow-2xl w-full max-w-4xl overflow-y-auto relative">
+        <div class="modal-content bg-white/95 border border-white rounded-[2.5rem] shadow-2xl w-full max-w-4xl max-h-[85vh] overflow-y-auto relative p-6 sm:p-10 space-y-6">
             <button onclick="closeModal('modal-1')" class="absolute top-6 right-6 text-gray-500 hover:text-purple-600 transition-colors bg-pastel-bg p-2 rounded-xl border">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"></path></svg>
             </button>
-            <div class="p-8 sm:p-10 space-y-6 text-center">
-                <h2 class="text-2xl font-heading font-extrabold text-gray-900 border-b border-purple-100 pb-4">Bài tập 1: Thao tác cơ bản với tệp tin và thư mục</h2>
-                <p class="text-gray-600 font-medium">Kính mời thầy cô bấm vào nút bên dưới để xem chi tiết báo cáo và minh chứng đầy đủ trên Google Drive.</p>
+            
+            <h2 class="text-2xl sm:text-3xl font-heading font-extrabold text-gray-900 border-b border-purple-100 pb-4">Bài tập 1: Thao tác cơ bản với tệp tin và thư mục</h2>
+            
+            <div class="space-y-4">
+                <div class="bg-purple-50/50 border border-purple-100/70 rounded-2xl p-5">
+                    <p class="text-xs font-bold uppercase tracking-wider text-purple-800 mb-1">🎯 Khung mục tiêu bài tập</p>
+                    <p class="text-gray-700 text-sm leading-relaxed">Làm quen và làm chủ không gian lưu trữ số cá nhân. Thiết lập hệ thống cây thư mục logic, khoa học trên máy tính và đám mây phục vụ việc lưu trữ, quản lý học liệu lâu dài.</p>
+                </div>
+                
+                <div class="bg-white/80 border border-gray-100 rounded-2xl p-5">
+                    <p class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-1">📝 Tóm tắt quá trình thực hiện &amp; Bài học rút ra</p>
+                    <p class="text-gray-700 text-sm leading-relaxed">Việc chuẩn hóa cách đặt tên tệp (Không dấu, dùng gạch nối) và phân cấp thư mục giúp em tiết kiệm rất nhiều thời gian tìm kiếm tài liệu. Tư duy ngăn nắp trong thế giới số là nền tảng để làm việc hiệu quả.</p>
+                </div>
+            </div>
+
+            <div class="space-y-3">
+                <p class="text-xs font-bold uppercase tracking-wider text-gray-900 flex items-center gap-1">📌 Minh chứng bài tập (PDF)</p>
+                <iframe src="https://drive.google.com/file/d/1hSh76hQOhhAqLp6b2ByLXx7FNa3tfiAp/preview" class="w-full h-[450px] rounded-2xl border border-purple-100 shadow-inner" allow="autoplay" loading="lazy"></iframe>
                 <div class="pt-2">
-                    <a href="https://drive.google.com/file/d/1hSh76hQOhhAqLp6b2ByLXx7FNa3tfiAp/view?usp=drive_link" target="_blank" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-2xl bg-purple-700 text-white text-sm font-bold hover:bg-purple-900 transition-colors shadow-md">
-                        Mở báo cáo chi tiết trên Google Drive ↗
-                    </a>
+                    <a href="https://drive.google.com/file/d/1hSh76hQOhhAqLp6b2ByLXx7FNa3tfiAp/view?usp=drive_link" target="_blank" class="text-xs font-bold text-purple-700 hover:underline">Mở toàn màn hình trên Google Drive ↗</a>
                 </div>
             </div>
         </div>
@@ -593,17 +606,30 @@
 
     <!-- Modal Bài 2 -->
     <div id="modal-2" class="modal fixed inset-0 z-50 flex items-center justify-center p-4 bg-purple-950/20 backdrop-blur-md">
-        <div class="modal-content bg-white/95 border border-white rounded-[2.5rem] shadow-2xl w-full max-w-4xl overflow-y-auto relative">
+        <div class="modal-content bg-white/95 border border-white rounded-[2.5rem] shadow-2xl w-full max-w-4xl max-h-[85vh] overflow-y-auto relative p-6 sm:p-10 space-y-6">
             <button onclick="closeModal('modal-2')" class="absolute top-6 right-6 text-gray-500 hover:text-purple-600 transition-colors bg-pastel-bg p-2 rounded-xl border">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"></path></svg>
             </button>
-            <div class="p-8 sm:p-10 space-y-6 text-center">
-                <h2 class="text-2xl font-heading font-extrabold text-gray-900 border-b border-pink-100 pb-4">Bài tập 2: Tìm kiếm và đánh giá thông tin học thuật</h2>
-                <p class="text-gray-600 font-medium">Kính mời thầy cô bấm vào nút bên dưới để xem chi tiết ma trận học thuật và minh chứng đầy đủ trên Google Drive.</p>
+            
+            <h2 class="text-2xl sm:text-3xl font-heading font-extrabold text-gray-900 border-b border-pink-100 pb-4">Bài tập 2: Tìm kiếm và đánh giá thông tin học thuật</h2>
+            
+            <div class="space-y-4">
+                <div class="bg-pink-50/50 border border-pink-100/70 rounded-2xl p-5">
+                    <p class="text-xs font-bold uppercase tracking-wider text-pink-800 mb-1">🎯 Khung mục tiêu bài tập</p>
+                    <p class="text-gray-700 text-sm leading-relaxed">Sử dụng thành thạo các toán tử tìm kiếm nâng cao (Search Operators) để tiếp cận thông tin chính xác trong thời gian ngắn nhất. Biết cách kiểm chứng, đánh giá độ tin cậy, tính học thuật và bản quyền của nguồn tài liệu trước khi sử dụng.</p>
+                </div>
+                
+                <div class="bg-white/80 border border-gray-100 rounded-2xl p-5">
+                    <p class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-1">📝 Tóm tắt quá trình thực hiện &amp; Bài học rút ra</p>
+                    <p class="text-gray-700 text-sm leading-relaxed">Trong thời đại bùng nổ thông tin, kỹ năng quan trọng không phải là tìm ra nhiều thông tin, mà là tìm ra thông tin đúng và chất lượng. Kỹ năng kiểm chứng giúp em né tránh các nguồn tin rác hoặc tin giả khi báo cáo với thầy cô.</p>
+                </div>
+            </div>
+
+            <div class="space-y-3">
+                <p class="text-xs font-bold uppercase tracking-wider text-gray-900 flex items-center gap-1">📌 Nội dung thực hiện chi tiết (Ma trận học thuật)</p>
+                <iframe src="https://drive.google.com/file/d/14dsppH5C-wCgnwf8uXj9jyY0bv5jQzrn/preview" class="w-full h-[450px] rounded-2xl border border-pink-100 shadow-inner" allow="autoplay" loading="lazy"></iframe>
                 <div class="pt-2">
-                    <a href="https://drive.google.com/file/d/14dsppH5C-wCgnwf8uXj9jyY0bv5jQzrn/view?usp=drive_link" target="_blank" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-2xl bg-pink-600 text-white text-sm font-bold hover:bg-pink-700 transition-colors shadow-md">
-                        Mở báo cáo chi tiết trên Google Drive ↗
-                    </a>
+                    <a href="https://drive.google.com/file/d/14dsppH5C-wCgnwf8uXj9jyY0bv5jQzrn/view?usp=drive_link" target="_blank" class="text-xs font-bold text-pink-700 hover:underline">Mở toàn màn hình trên Google Drive ↗</a>
                 </div>
             </div>
         </div>
@@ -611,71 +637,123 @@
 
     <!-- Modal Bài 3 -->
     <div id="modal-3" class="modal fixed inset-0 z-50 flex items-center justify-center p-4 bg-purple-950/20 backdrop-blur-md">
-        <div class="modal-content bg-white/95 border border-white rounded-[2.5rem] shadow-2xl w-full max-w-4xl overflow-y-auto relative">
+        <div class="modal-content bg-white/95 border border-white rounded-[2.5rem] shadow-2xl w-full max-w-4xl max-h-[85vh] overflow-y-auto relative p-6 sm:p-10 space-y-6">
             <button onclick="closeModal('modal-3')" class="absolute top-6 right-6 text-gray-500 hover:text-purple-600 transition-colors bg-pastel-bg p-2 rounded-xl border">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"></path></svg>
             </button>
-            <div class="p-8 sm:p-10 space-y-6 text-center">
-                <h2 class="text-2xl font-heading font-extrabold text-gray-900 border-b border-amber-100 pb-4">Bài tập 3: Viết Prompt hiệu quả cho các tác vụ học tập</h2>
-                <p class="text-gray-600 font-medium">Kính mời thầy cô bấm vào nút bên dưới để xem chi tiết kỹ nghệ Prompt và minh chứng đầy đủ trên Google Drive.</p>
+            
+            <h2 class="text-2xl sm:text-3xl font-heading font-extrabold text-gray-900 border-b border-amber-100 pb-4">Bài tập 3: Viết Prompt hiệu quả cho các tác vụ học tập</h2>
+            
+            <div class="space-y-4">
+                <div class="bg-amber-50/50 border border-amber-100/70 rounded-2xl p-5">
+                    <p class="text-xs font-bold uppercase tracking-wider text-amber-800 mb-1">🎯 Khung mục tiêu bài tập</p>
+                    <p class="text-gray-700 text-sm leading-relaxed">Xây dựng kỹ năng giao tiếp hiệu quả với AI. Ứng dụng mô hình tạo prompt theo cấu trúc chuẩn (Vai trò, Bối cảnh, Nhiệm vụ, Tiêu chí đầu ra) để khai thác tối đa sức mạnh hỗ trợ của các mô hình ngôn ngữ lớn.</p>
+                </div>
+                
+                <div class="bg-white/80 border border-gray-100 rounded-2xl p-5">
+                    <p class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-1">📝 Tóm tắt quá trình thực hiện &amp; Bài học rút ra</p>
+                    <p class="text-gray-700 text-sm leading-relaxed">AI thông minh hay không phụ thuộc lớn vào câu lệnh của mình. Học cách ra lệnh rõ ràng, chi tiết giúp em nhận về kết quả học tập có chiều sâu và chính xác hơn rất nhiều.</p>
+                </div>
+            </div>
+
+            <div class="space-y-3">
+                <p class="text-xs font-bold uppercase tracking-wider text-gray-900 flex items-center gap-1">📌 Minh chứng bài tập (PDF)</p>
+                <iframe src="https://drive.google.com/file/d/1uUhU3S16oCLOCESoHX2oXMdoPo6zW1p0/preview" class="w-full h-[450px] rounded-2xl border border-amber-100 shadow-inner" allow="autoplay" loading="lazy"></iframe>
                 <div class="pt-2">
-                    <a href="https://drive.google.com/file/d/1uUhU3S16oCLOCESoHX2oXMdoPo6zW1p0/view?usp=drive_link" target="_blank" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-2xl bg-amber-500 text-white text-sm font-bold hover:bg-amber-600 transition-colors shadow-md">
-                        Mở báo cáo chi tiết trên Google Drive ↗
-                    </a>
+                    <a href="https://drive.google.com/file/d/1uUhU3S16oCLOCESoHX2oXMdoPo6zW1p0/view?usp=drive_link" target="_blank" class="text-xs font-bold text-amber-700 hover:underline">Mở toàn màn hình trên Google Drive ↗</a>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Modal Bài 4 -->
-    <div id="modal-4" class="modal fixed inset-0 z-50 flex items-center justify-center p-4 bg-purple-950/20 backdrop-blur-sm">
-        <div class="modal-content bg-white/95 border border-white rounded-[2.5rem] shadow-2xl w-full max-w-4xl overflow-y-auto relative">
+    <div id="modal-4" class="modal fixed inset-0 z-50 flex items-center justify-center p-4 bg-purple-950/20 backdrop-blur-md">
+        <div class="modal-content bg-white/95 border border-white rounded-[2.5rem] shadow-2xl w-full max-w-4xl max-h-[85vh] overflow-y-auto relative p-6 sm:p-10 space-y-6">
             <button onclick="closeModal('modal-4')" class="absolute top-6 right-6 text-gray-500 hover:text-purple-600 transition-colors bg-pastel-bg p-2 rounded-xl border">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"></path></svg>
             </button>
-            <div class="p-8 sm:p-10 space-y-6 text-center">
-                <h2 class="text-2xl font-heading font-extrabold text-gray-900 border-b border-yellow-100 pb-4">Bài tập 4: Sử dụng công cụ hợp tác trực tuyến cho dự án nhóm</h2>
-                <p class="text-gray-600 font-medium">Kính mời thầy cô bấm vào nút bên dưới để xem không gian cộng tác và minh chứng đầy đủ trên Google Drive.</p>
+            
+            <h2 class="text-2xl sm:text-3xl font-heading font-extrabold text-gray-900 border-b border-yellow-100 pb-4">Bài tập 4: Sử dụng công cụ hợp tác trực tuyến cho dự án nhóm</h2>
+            
+            <div class="space-y-4">
+                <div class="bg-yellow-50/50 border border-yellow-100/70 rounded-2xl p-5">
+                    <p class="text-xs font-bold uppercase tracking-wider text-yellow-900 mb-1">🎯 Khung mục tiêu bài tập</p>
+                    <p class="text-gray-700 text-sm leading-relaxed">Ứng dụng hệ sinh thái đám mây để làm việc nhóm từ xa. Thiết lập không gian cộng tác, phân quyền tài liệu, theo dõi tiến độ và tối ưu hóa quy trình làm việc chung trên không gian số.</p>
+                </div>
+                
+                <div class="bg-white/80 border border-gray-100 rounded-2xl p-5">
+                    <p class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-1">📝 Tóm tắt quá trình thực hiện &amp; Bài học rút ra</p>
+                    <p class="text-gray-700 text-sm leading-relaxed">Cộng tác số giúp xóa nhòa khoảng cách địa lý. Bài học lớn nhất là việc đồng bộ hóa dữ liệu và xây dựng quy ước chung giúp nhóm hoạt động trơn tru, tránh chồng chéo công việc.</p>
+                </div>
+            </div>
+
+            <div class="space-y-3">
+                <p class="text-xs font-bold uppercase tracking-wider text-gray-900 flex items-center gap-1">📌 Không gian cộng tác số (Minh chứng)</p>
+                <iframe src="https://drive.google.com/file/d/1nuBJIxzP16XasoLjr1KGVTsqQ0dQo-le/preview" class="w-full h-[450px] rounded-2xl border border-yellow-100 shadow-inner" allow="autoplay" loading="lazy"></iframe>
                 <div class="pt-2">
-                    <a href="https://drive.google.com/file/d/1nuBJIxzP16XasoLjr1KGVTsqQ0dQo-le/view?usp=drive_link" target="_blank" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-2xl bg-yellow-600 text-white text-sm font-bold hover:bg-yellow-700 transition-colors shadow-md">
-                        Mở báo cáo chi tiết trên Google Drive ↗
-                    </a>
+                    <a href="https://drive.google.com/file/d/1nuBJIxzP16XasoLjr1KGVTsqQ0dQo-le/view?usp=drive_link" target="_blank" class="text-xs font-bold text-yellow-700 hover:underline">Mở toàn màn hình trên Google Drive ↗</a>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Modal Bài 5 -->
-    <div id="modal-5" class="modal fixed inset-0 z-50 flex items-center justify-center p-4 bg-purple-950/20 backdrop-blur-sm">
-        <div class="modal-content bg-white/95 border border-white rounded-[2.5rem] shadow-2xl w-full max-w-4xl overflow-y-auto relative">
+    <div id="modal-5" class="modal fixed inset-0 z-50 flex items-center justify-center p-4 bg-purple-950/20 backdrop-blur-md">
+        <div class="modal-content bg-white/95 border border-white rounded-[2.5rem] shadow-2xl w-full max-w-4xl max-h-[85vh] overflow-y-auto relative p-6 sm:p-10 space-y-6">
             <button onclick="closeModal('modal-5')" class="absolute top-6 right-6 text-gray-500 hover:text-purple-600 transition-colors bg-pastel-bg p-2 rounded-xl border">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"></path></svg>
             </button>
-            <div class="p-8 sm:p-10 space-y-6 text-center">
-                <h2 class="text-2xl font-heading font-extrabold text-gray-900 border-b border-purple-100 pb-4">Bài tập 5: Sử dụng AI tạo sinh để hỗ trợ sáng tạo nội dung</h2>
-                <p class="text-gray-600 font-medium">Kính mời thầy cô bấm vào nút bên dưới để xem bài luận Blog và quá trình biên tập trên Google Drive.</p>
+            
+            <h2 class="text-2xl sm:text-3xl font-heading font-extrabold text-gray-900 border-b border-purple-100 pb-4">Bài tập 5: Sử dụng AI tạo sinh để hỗ trợ sáng tạo nội dung</h2>
+            
+            <div class="space-y-4">
+                <div class="bg-purple-50/50 border border-purple-100/70 rounded-2xl p-5">
+                    <p class="text-xs font-bold uppercase tracking-wider text-purple-800 mb-1">🎯 Khung mục tiêu bài tập</p>
+                    <p class="text-gray-700 text-sm leading-relaxed">Phối hợp cùng AI để phát triển ý tưởng bài viết Blog và xây dựng nội dung đa phương tiện. Rèn luyện kỹ năng biên tập, tinh chỉnh sản phẩm của AI nhằm mang đậm dấu ấn cá nhân.</p>
+                </div>
+                
+                <div class="bg-white/80 border border-gray-100 rounded-2xl p-5">
+                    <p class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-1">📝 Tóm tắt quá trình thực hiện &amp; Bài học rút ra</p>
+                    <p class="text-gray-700 text-sm leading-relaxed">AI là một cộng sự lên ý tưởng tuyệt vời nhưng bộ não biên tập cuối cùng phải là của mình. Sự kết hợp giữa tốc độ của máy móc và cảm thấu của con người tạo nên sản phẩm tốt nhất.</p>
+                </div>
+            </div>
+
+            <div class="space-y-3">
+                <p class="text-xs font-bold uppercase tracking-wider text-gray-900 flex items-center gap-1">📌 Luận văn Blog &amp; Quá trình biên tập (PDF)</p>
+                <iframe src="https://drive.google.com/file/d/11v91TkMA5hoX0byIo3Zhm-qlVICA6CJs/preview" class="w-full h-[450px] rounded-2xl border border-purple-100 shadow-inner" allow="autoplay" loading="lazy"></iframe>
                 <div class="pt-2">
-                    <a href="https://drive.google.com/file/d/11v91TkMA5hoX0byIo3Zhm-qlVICA6CJs/view?usp=drive_link" target="_blank" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-2xl bg-purple-700 text-white text-sm font-bold hover:bg-purple-900 transition-colors shadow-md">
-                        Mở báo cáo chi tiết trên Google Drive ↗
-                    </a>
+                    <a href="https://drive.google.com/file/d/11v91TkMA5hoX0byIo3Zhm-qlVICA6CJs/view?usp=drive_link" target="_blank" class="text-xs font-bold text-purple-700 hover:underline">Mở toàn màn hình trên Google Drive ↗</a>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Modal Bài 6 -->
-    <div id="modal-6" class="modal fixed inset-0 z-50 flex items-center justify-center p-4 bg-purple-950/20 backdrop-blur-sm">
-        <div class="modal-content bg-white/95 border border-white rounded-[2.5rem] shadow-2xl w-full max-w-4xl overflow-y-auto relative">
+    <div id="modal-6" class="modal fixed inset-0 z-50 flex items-center justify-center p-4 bg-purple-950/20 backdrop-blur-md">
+        <div class="modal-content bg-white/95 border border-white rounded-[2.5rem] shadow-2xl w-full max-w-4xl max-h-[85vh] overflow-y-auto relative p-6 sm:p-10 space-y-6">
             <button onclick="closeModal('modal-6')" class="absolute top-6 right-6 text-gray-500 hover:text-purple-600 transition-colors bg-pastel-bg p-2 rounded-xl border">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"></path></svg>
             </button>
-            <div class="p-8 sm:p-10 space-y-6 text-center">
-                <h2 class="text-2xl font-heading font-extrabold text-gray-900 border-b border-pink-100 pb-4">Bài tập 6: Sử dụng AI có trách nhiệm trong học tập và nghiên cứu</h2>
-                <p class="text-gray-600 font-medium">Kính mời thầy cô bấm vào nút bên dưới để xem cam kết liêm chính học thuật và phản tư trên Google Drive.</p>
+            
+            <h2 class="text-2xl sm:text-3xl font-heading font-extrabold text-gray-900 border-b border-pink-100 pb-4">Bài tập 6: Sử dụng AI có trách nhiệm trong học tập và nghiên cứu</h2>
+            
+            <div class="space-y-4">
+                <div class="bg-pink-50/50 border border-pink-100/70 rounded-2xl p-5">
+                    <p class="text-xs font-bold uppercase tracking-wider text-pink-800 mb-1">🎯 Khung mục tiêu bài tập</p>
+                    <p class="text-gray-700 text-sm leading-relaxed">Xây dựng bộ quy tắc ứng xử liêm chính học thuật trong kỷ nguyên số. Hiểu rõ ranh giới giữa hỗ trợ học tập và gian lận, cam kết minh bạch mức độ sử dụng công cụ AI trong mọi sản phẩm nghiên cứu.</p>
+                </div>
+                
+                <div class="bg-white/80 border border-gray-100 rounded-2xl p-5">
+                    <p class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-1">📝 Tóm tắt quá trình thực hiện &amp; Bài học rút ra</p>
+                    <p class="text-gray-700 text-sm leading-relaxed">Sự liêm chính định hình giá trị bản thân. Khai báo trung thực và sử dụng AI có trách nhiệm bảo vệ tư duy độc lập của một người học và uy tín nghề giáo tương lai.</p>
+                </div>
+            </div>
+
+            <div class="space-y-3">
+                <p class="text-xs font-bold uppercase tracking-wider text-gray-900 flex items-center gap-1">📌 Cam kết liêm chính &amp; Bản phản tư (PDF)</p>
+                <iframe src="https://drive.google.com/file/d/1GHXQM2yJ-J5lIV2EjsNFaB0kz6a2GyLm/preview" class="w-full h-[450px] rounded-2xl border border-pink-100 shadow-inner" allow="autoplay" loading="lazy"></iframe>
                 <div class="pt-2">
-                    <a href="https://drive.google.com/file/d/1GHXQM2yJ-J5lIV2EjsNFaB0kz6a2GyLm/view?usp=drive_link" target="_blank" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-2xl bg-pink-600 text-white text-sm font-bold hover:bg-pink-700 transition-colors shadow-md">
-                        Mở báo cáo chi tiết trên Google Drive ↗
-                    </a>
+                    <a href="https://drive.google.com/file/d/1GHXQM2yJ-J5lIV2EjsNFaB0kz6a2GyLm/view?usp=drive_link" target="_blank" class="text-xs font-bold text-pink-700 hover:underline">Mở toàn màn hình trên Google Drive ↗</a>
                 </div>
             </div>
         </div>
